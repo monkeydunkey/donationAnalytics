@@ -34,7 +34,7 @@ Config file Description
   "campaignInfo": file to which to store or read campaign info the service processed before shutting down. This will be useful if the data is coming at long intervals where we have to store and then read previous runs variables as well. Optional
 }
 
-#Data Constraint Checks
+# Data Constraint Checks
 Following are the tests done on various fields
 1. Transaction Date: Check to ensure that the date is present valid and that of after 1970. The last is to ensure that we don't have really old dates such as that of 1016 as they are obviously a mistake
 
@@ -46,4 +46,4 @@ Following are the tests done on various fields
 
 5. campaignID: Check to ensure that the field is present
 
-6. Count of columns: For each entry there is a check to ensure that we have the required number of columns i.e. 21 
+6. Count of columns: For each entry there is a check to ensure that we have the required number of columns i.e. 21
