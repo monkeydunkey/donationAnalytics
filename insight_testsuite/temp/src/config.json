@@ -1,0 +1,7 @@
+{
+  "schedule": 2,
+  "serviceSleepTime": 0.1,
+  "outFileName": "output/repeat_donors.txt",
+  "inputFileName": "input/itcont.txt",
+  "percentileFile": "input/percentile.txt"
+}
