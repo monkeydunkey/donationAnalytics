@@ -106,7 +106,7 @@ def instantiateService(configData):
             with open (configData['campaignInfo'], 'r') as d:
                 campaignInfo = json.load(d)
         except IOError as e:
-            contributorInfo = {}
+            campaignInfo = {}
     return campaignInfo, contributorInfo
 
 def getPercentileContribution(contributions, percentile):
